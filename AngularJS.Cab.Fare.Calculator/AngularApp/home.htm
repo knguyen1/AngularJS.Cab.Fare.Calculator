@@ -1,0 +1,65 @@
+﻿
+
+
+
+<!--<div id="welcome" class="alert alert-info alert-dismissable">
+    <div id="message">
+        <span class="important">{{numMinutesAbove6mph}} minutes</span> above 6 mph,
+        <span class="important">{{numMilesBelow6mph}} miles</span> below 6 mph,
+        on <span class="important">{{dateOfTrip | date:'MM/dd/yyyy'}}</span>,
+        at <span class="important">{{timeOfTrip | date:'hh:mm a'}}</span>.
+        Your total fare: <span class="important">{{totalFare(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip) | currency}}</span>
+    </div>
+</div>-->
+
+<div id="welcome" class="alert alert-info alert-dismissable">
+    <div id="message">
+            <h2>Your total fare: <span class="important">{{totalFare(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip) | currency}}</span></h2>
+    </div>
+</div>
+
+<form class="form-horizontal">
+
+    <div class="form-group">
+        <!-- minutes and miles -->
+        <label for="numMinutesAbove6mph" class="control-label col-xs-2">Number of Minutes<br />(Above 6 mph)</label>
+        <div class="col-xs-10" style="max-width:334px;">
+            <input type="text" ng-model="numMinutesAbove6mph" valid-number id="numMinutesAbove6mph" class="form-control" placeholder="{{numMinutesAbove6mph}}" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <!-- minutes and miles -->
+        <label for="numMilesBelow6mph" class="control-label col-xs-2">Number of Miles<br />(Below 6 mph)</label>
+        <div class="col-xs-10" style="max-width:334px;">
+            <input type="text" ng-model="numMilesBelow6mph" valid-number id="Text1" class="form-control" placeholder="{{numMilesBelow6mph}}" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <!-- date of trip -->
+        <label class="control-label col-xs-2">Date of Trip</label>
+        <div style="display:inline-block; min-height:265px; margin-left:15px;"><!--hacky hack alignment-->
+            <datepicker ng-model="dateOfTrip" min-date="minDate" show-weeks="true" class="well well-sm"></datepicker>
+        </div>
+
+        <div style="display:inline-block; vertical-align:top; margin-left: 20px;">
+            <label>Time for Trip</label>
+            <timepicker name="timeOfTrip" id="timeOfTrip" ng-model="timeOfTrip" ng-change="changed()"></timepicker>
+        </div>
+
+        <div style="margin-left:210px;">
+            <button type="button" class="btn btn-sm btn-default" ng-click="toggleMin()" tooltip="After today restriction">Allow Past Dates</button>
+        </div>
+    </div>
+<!--
+    <div class="form-group">
+            <label class="control-label col-xs-2" style="padding-top: 35px;">Trip of Trip</label>
+            <timepicker name="timeOfTrip" id="timeOfTrip" ng-model="timeOfTrip" ng-change="changed()"></timepicker>
+    </div>-->
+
+    <!--<div class="form-group">
+        <label for="timeOfTrip">Time of Trip</label>
+        <timepicker name="timeOfTrip" id="timeOfTrip" ng-model="timeOfTrip" ng-change="changed()"></timepicker>
+    </div>-->
+</form>

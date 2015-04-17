@@ -1,0 +1,15 @@
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\AngularJS.Cab.Fare.Calculator.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\AngularJS.Cab.Fare.Calculator.pdb
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Antlr3.Runtime.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\EntityFramework.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Microsoft.Web.Infrastructure.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Newtonsoft.Json.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\System.Web.Optimization.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\WebGrease.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Antlr3.Runtime.pdb
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\EntityFramework.xml
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Newtonsoft.Json.xml
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\System.Web.Optimization.xml
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\obj\Debug\AngularJS.Cab.Fare.Calculator.csprojResolveAssemblyReference.cache
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\obj\Debug\AngularJS.Cab.Fare.Calculator.dll
+c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\obj\Debug\AngularJS.Cab.Fare.Calculator.pdb

@@ -1,0 +1,22 @@
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+/*.form-group {
+    width: 30%;
+} */
+
+.important {
+    font-weight: bold;
+}
+
+
+.col-xs-10 {
+    padding-top:10px;
+}
