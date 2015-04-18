@@ -17,9 +17,12 @@ namespace AngularJS.Cab.Fare.Calculator.App_Start
                         "~/Scripts/angular-ui/ui-bootstrap-tpls.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
+                        "~/Scripts/dateFormat.js",
                         "~/Scripts/Directives/app.js",
-                        "~/Scripts/Controllers/calculator.js",
-                        "~/Scripts/Directives/validate.js"));
+                        "~/Scripts/Directives/validate.js",
+                        "~/Scripts/Services/services.js",
+                        "~/Scripts/Controllers/calculator.js"
+                        ));
 
             bundles.Add(new StyleBundle("~/bundles/css").Include(
                       "~/Content/css/bootstrap.min.css",

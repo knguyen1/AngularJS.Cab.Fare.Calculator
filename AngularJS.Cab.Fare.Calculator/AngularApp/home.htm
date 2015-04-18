@@ -14,7 +14,7 @@
 
 <div id="welcome" class="alert alert-info alert-dismissable">
     <div id="message">
-            <h2>Your total fare: <span class="important">{{totalFare(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip) | currency}}</span></h2>
+        <h3>Your total fare: {{totalFare(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip) | currency}}</h3>
     </div>
 </div>
 
@@ -41,15 +41,17 @@
         <label class="control-label col-xs-2">Date of Trip</label>
         <div style="display:inline-block; min-height:265px; margin-left:15px;"><!--hacky hack alignment-->
             <datepicker ng-model="dateOfTrip" min-date="minDate" show-weeks="true" class="well well-sm"></datepicker>
+        <pre>Selected: <em>{{dateOfTrip | date:'MM/dd/yyyy'}}</em></pre>
         </div>
 
         <div style="display:inline-block; vertical-align:top; margin-left: 20px;">
             <label>Time for Trip</label>
-            <timepicker name="timeOfTrip" id="timeOfTrip" ng-model="timeOfTrip" ng-change="changed()"></timepicker>
+            <timepicker name="timeOfTrip" id="timeOfTrip" ng-model="timeOfTrip"></timepicker>
         </div>
 
         <div style="margin-left:210px;">
             <button type="button" class="btn btn-sm btn-default" ng-click="toggleMin()" tooltip="After today restriction">Allow Past Dates</button>
+            <button type="button" class="btn btn-sm btn-default" ng-click="checkBackEnd()" tooltip="Check against C#">Test</button>
         </div>
     </div>
 <!--

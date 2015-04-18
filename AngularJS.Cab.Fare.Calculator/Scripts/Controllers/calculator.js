@@ -4,41 +4,44 @@
 
 //here, we establish our calculator controller, which will will pass the model to the home.htm view
 var cabfareCalculator = app.controller('cabfareCalculator',
-    ['$scope', '$log', function ($scope, $log) {
-
-        //we make some variables to the to do the calculations
-
-        //number of minutes spent above 6 miles per hour
-        $scope.numMinutesAbove6mph = 5;
-
-        //number of miles traveling below 6 miles per hour
-        $scope.numMilesBelow6mph = 2;
-
-        //functions to take care of date of trip
-        $scope.today = function () {
-            $scope.dateOfTrip = new Date();
-        };
-        $scope.today(); //get today when the controller first fires
+    ['$scope', 'apiService', function ($scope, apiService) {
 
         $scope.toggleMin = function () {
             $scope.minDate = $scope.minDate ? null : new Date();
         };
-        $scope.toggleMin();
 
-        //time of start of ride
-        $scope.timeOfTrip = new Date();
-        $scope.changed = function () {
-            $log.log('Time changed to: ' + $scope.timeOfTrip);
-        };
+        //initialize variables
+        $scope.init = function () {
+            $scope.numMinutesAbove6mph = 10;
+            $scope.numMilesBelow6mph = 5;
+            $scope.dateOfTrip = new Date();
+            $scope.timeOfTrip = new Date();
+            $scope.toggleMin();
+        } (); //note: the () at the end makes angular fire the function right away
 
+        //clear variables... might use this function later
         $scope.clear = function () {
             $scope.dateOfTrip = null;
+            $scope.timeOfTrip = null;
+            $scope.numMinutesAbove6mph = null;
+            $scope.numMilesBelow6mph = null;
         };
 
-        //        //debug
-        //        $scope.totalFare = function () {
-        //            return 10;
-        //        };
+        //using angular promises
+        $scope.checkBackEnd = function () {
+
+            //prepare the payload
+            var payload = "/?numMinutesAbove6mph=" + $scope.numMinutesAbove6mph + "&numMilesBelow6mph=" + $scope.numMilesBelow6mph
+                + "&dateOfTrip=" + dateFormat($scope.dateOfTrip,"mm/dd/yyyy HH:MM:ss") + "&timeOfTrip=" + dateFormat($scope.timeOfTrip,"mm/dd/yyyy HH:MM:ss");
+
+            //send it to the api service
+            apiService.calculate(payload)
+                .then(function (res) {
+                    //success
+                }, function (err) {
+                    //failure
+                });
+        };
 
         //finally, we have all the variables.  begin calculating the fare
         $scope.totalFare = function (numMinutesAbove6mph, numMilesBelow6mph, dateOfTrip, timeOfTrip) {
@@ -65,10 +68,9 @@ var cabfareCalculator = app.controller('cabfareCalculator',
                 nightCharge = 0.50 * (mileUnit + minuteUnit);
 
             //weekday rush hour charge: if the ride takes place during a weekday AND between 4pm and 8pm
-            if ((currentDay >= 1 && currentDay < 6) && (currentHour >= 16 || currentHour < 21))
+            if ((currentDay >= 1 && currentDay < 6) && (currentHour >= 16 && currentHour < 21))
                 weekDayCharge = 1;
 
             return entryFee + totalUnitsFee + nightCharge + weekDayCharge + nysSurcharge;
         };
-
     } ]);
