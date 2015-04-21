@@ -7,26 +7,40 @@ This project is written in Angular JS with some simple controllers to calculate 
 
 A C# controller, supported by dependency injection to make testing easier, has been added as an exercise.  The controller delivers the same calculation in a `JsonResult`.
 
+## Angular main files
+
+The main angular files are found in:
+
+    /root/AngularJS.Cab.Fare.Calculator/Scripts/Controllers
+    /root/AngularJS.Cab.Fare.Calculator/Scripts/Directives
+    /root/AngularJS.Cab.Fare.Calculator/Scripts/Services
+
+The views are found in:
+
+    /root/AngularJS.Cab.Fare.Calculator/AngularApp/home.htm
+    /root/AngularJS.Cab.Fare.Calculator/AngularApp/contact.htm
+    /root/AngularJS.Cab.Fare.Calculator/AngularApp/about.htm
+
 ## Testing
 
 You can find the test files here:
 
-  /root/Cab.Fare.Calculator.Test/
+    /root/Cab.Fare.Calculator.Test/
   
 MS Test file here:
 
-  /root/Cab.Fare.Calculator.Test/FareCalcTest
+    /root/Cab.Fare.Calculator.Test/FareCalcTest
   
 Q Unit test file here:
 
-  /root/Cab.Fare.Calculator.Test/QUnitTest_AngularJS.Cab.Fare.Calculator.html
+    /root/Cab.Fare.Calculator.Test/QUnitTest_AngularJS.Cab.Fare.Calculator.html
   
 Protractor test for integration testing here:
 
-  /root/Cab.Fare.Calculator.Test/Protractor
+    /root/Cab.Fare.Calculator.Test/Protractor
   
 Simply launch protractor with:
 
-  ~ protractor conf.js
+    protractor conf.js
   
 You will need to install node.js and protractor.  More info here: https://github.com/angular/protractor
