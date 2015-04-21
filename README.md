@@ -7,7 +7,7 @@ This project is written in Angular JS with some simple controllers to calculate 
 
 A C# controller, supported by dependency injection to make testing easier, has been added as an exercise.  The controller delivers the same calculation in a `JsonResult`.
 
-## Angular main files
+## Angular Main Files
 
 The main angular files are found in:
 
@@ -20,6 +20,18 @@ The views are found in:
     /root/AngularJS.Cab.Fare.Calculator/AngularApp/home.htm
     /root/AngularJS.Cab.Fare.Calculator/AngularApp/contact.htm
     /root/AngularJS.Cab.Fare.Calculator/AngularApp/about.htm
+
+## Promises
+Usage of promises are demonstrated here, in `calculator.js`.
+
+    //send it to the api service
+    apiService.calculate(payload)
+        .then(function (res) {
+            //success
+            alert(res.totalFare);
+        }, function (err) {
+        //failure
+    });
 
 ## Testing
 
