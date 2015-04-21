@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b7b4d033-7150-4959-ba22-b6f6bae7cb61" name="knguyen@NYC1AGLMKNGUYE1 2015-04-20 15:36:52" runUser="MBSINTL\knguyen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="23b2b9a2-03d4-4a15-aa74-84d949527ec4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="knguyen_NYC1AGLMKNGUYE1 2015-04-20 15_36_52">
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\AngularJS.Cab.Fare.Calculator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-20T15:36:52.6649569-04:00" queuing="2015-04-20T15:36:52.7109615-04:00" start="2015-04-20T15:36:52.7199624-04:00" finish="2015-04-20T15:36:52.9469851-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Calculate_WhenParamsEqual5MinsUnits2MilesUnits2010_10_08_5_30PM_ToEqual975Fare_ReturnsJsonResult" storage="c:\users\knguyen\documents\visual studio 2010\projects\angularjs.cab.fare.calculator\cab.fare.calculator.test\bin\debug\cab.fare.calculator.test.dll" id="96c87ed1-a086-7e25-a176-7816a95300de">
+      <Execution id="99ef91cf-bfab-4574-9853-be6fafcdb236" />
+      <TestMethod codeBase="C:/Users/knguyen/documents/visual studio 2010/Projects/AngularJS.Cab.Fare.Calculator/Cab.Fare.Calculator.Test/bin/Debug/Cab.Fare.Calculator.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cab.Fare.Calculator.Test.FareCalcTest, Cab.Fare.Calculator.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_WhenParamsEqual5MinsUnits2MilesUnits2010_10_08_5_30PM_ToEqual975Fare_ReturnsJsonResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="96c87ed1-a086-7e25-a176-7816a95300de" executionId="99ef91cf-bfab-4574-9853-be6fafcdb236" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="99ef91cf-bfab-4574-9853-be6fafcdb236" testId="96c87ed1-a086-7e25-a176-7816a95300de" testName="Calculate_WhenParamsEqual5MinsUnits2MilesUnits2010_10_08_5_30PM_ToEqual975Fare_ReturnsJsonResult" computerName="NYC1AGLMKNGUYE1" duration="00:00:00.0246582" startTime="2015-04-20T15:36:52.7269631-04:00" endTime="2015-04-20T15:36:52.9329837-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99ef91cf-bfab-4574-9853-be6fafcdb236">
+    </UnitTestResult>
+  </Results>
+</TestRun>

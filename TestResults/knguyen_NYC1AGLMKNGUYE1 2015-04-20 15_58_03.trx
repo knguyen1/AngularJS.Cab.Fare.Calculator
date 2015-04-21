@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fd7e922c-d48b-401b-8ec3-6d464cd445eb" name="knguyen@NYC1AGLMKNGUYE1 2015-04-20 15:58:03" runUser="MBSINTL\knguyen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="23b2b9a2-03d4-4a15-aa74-84d949527ec4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="knguyen_NYC1AGLMKNGUYE1 2015-04-20 15_58_03">
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\FluentAssertions.3.3.0\lib\net40\FluentAssertions.Core.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.Mvc.3.0.20105.1\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\AngularJS.Cab.Fare.Calculator.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.Razor.1.0.20105.408\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\FluentAssertions.3.3.0\lib\net40\FluentAssertions.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.Deployment.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-20T15:58:03.2430020-04:00" queuing="2015-04-20T15:58:03.3010078-04:00" start="2015-04-20T15:58:03.3210098-04:00" finish="2015-04-20T15:58:03.5320309-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Calculate_WhenParamsEqual_5MinsUnits_2MilesUnits_2010_10_08_5_30PM_ToEqual_975Fare_ReturnsJsonResult" storage="c:\users\knguyen\documents\visual studio 2010\projects\angularjs.cab.fare.calculator\cab.fare.calculator.test\bin\debug\cab.fare.calculator.test.dll" id="5427b0c7-c6cb-ab83-7cff-0d091bc9b2ba">
+      <Execution id="3a9e425e-983d-4c28-8fff-73b6cffdd903" />
+      <TestMethod codeBase="C:/Users/knguyen/documents/visual studio 2010/Projects/AngularJS.Cab.Fare.Calculator/Cab.Fare.Calculator.Test/bin/Debug/Cab.Fare.Calculator.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cab.Fare.Calculator.Test.FareCalcTest, Cab.Fare.Calculator.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_WhenParamsEqual_5MinsUnits_2MilesUnits_2010_10_08_5_30PM_ToEqual_975Fare_ReturnsJsonResult" />
+    </UnitTest>
+    <UnitTest name="Index_Action_Returns_View" storage="c:\users\knguyen\documents\visual studio 2010\projects\angularjs.cab.fare.calculator\cab.fare.calculator.test\bin\debug\cab.fare.calculator.test.dll" id="f6e50fbf-2f4b-80bd-a95c-0975bd873510">
+      <Execution id="cd4779fb-4002-409e-b8ce-88efa8361446" />
+      <TestMethod codeBase="C:/Users/knguyen/documents/visual studio 2010/Projects/AngularJS.Cab.Fare.Calculator/Cab.Fare.Calculator.Test/bin/Debug/Cab.Fare.Calculator.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cab.Fare.Calculator.Test.FareCalcTest, Cab.Fare.Calculator.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Action_Returns_View" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f6e50fbf-2f4b-80bd-a95c-0975bd873510" executionId="cd4779fb-4002-409e-b8ce-88efa8361446" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5427b0c7-c6cb-ab83-7cff-0d091bc9b2ba" executionId="3a9e425e-983d-4c28-8fff-73b6cffdd903" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cd4779fb-4002-409e-b8ce-88efa8361446" testId="f6e50fbf-2f4b-80bd-a95c-0975bd873510" testName="Index_Action_Returns_View" computerName="NYC1AGLMKNGUYE1" duration="00:00:00.0220291" startTime="2015-04-20T15:58:03.3320109-04:00" endTime="2015-04-20T15:58:03.5060283-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd4779fb-4002-409e-b8ce-88efa8361446">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a9e425e-983d-4c28-8fff-73b6cffdd903" testId="5427b0c7-c6cb-ab83-7cff-0d091bc9b2ba" testName="Calculate_WhenParamsEqual_5MinsUnits_2MilesUnits_2010_10_08_5_30PM_ToEqual_975Fare_ReturnsJsonResult" computerName="NYC1AGLMKNGUYE1" duration="00:00:00.0070469" startTime="2015-04-20T15:58:03.5100287-04:00" endTime="2015-04-20T15:58:03.5190296-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a9e425e-983d-4c28-8fff-73b6cffdd903">
+    </UnitTestResult>
+  </Results>
+</TestRun>

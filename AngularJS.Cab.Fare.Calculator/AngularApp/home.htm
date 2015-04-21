@@ -14,7 +14,7 @@
 
 <div id="welcome" class="alert alert-info alert-dismissable">
     <div id="message">
-        <h3>Your total fare: {{totalFare(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip) | currency}}</h3>
+        <h3>Your total fare: <span id="computedFare">{{totalFare(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip) | currency}}</span></h3>
     </div>
 </div>
 
@@ -32,7 +32,7 @@
         <!-- minutes and miles -->
         <label for="numMilesBelow6mph" class="control-label col-xs-2">Number of Miles<br />(Below 6 mph)</label>
         <div class="col-xs-10" style="max-width:334px;">
-            <input type="text" ng-model="numMilesBelow6mph" valid-number id="Text1" class="form-control" placeholder="{{numMilesBelow6mph}}" />
+            <input type="text" ng-model="numMilesBelow6mph" valid-number id="numMilesBelow6mph" class="form-control" placeholder="{{numMilesBelow6mph}}" />
         </div>
     </div>
 
@@ -51,7 +51,7 @@
 
         <div style="margin-left:210px;">
             <button type="button" class="btn btn-sm btn-default" ng-click="toggleMin()" tooltip="After today restriction">Allow Past Dates</button>
-            <button type="button" class="btn btn-sm btn-default" ng-click="checkBackEnd()" tooltip="Check against C#">Test</button>
+            <button id="checkCSharp" type="button" class="btn btn-sm btn-default" ng-click="checkBackEnd(numMinutesAbove6mph,numMilesBelow6mph,dateOfTrip,timeOfTrip)" tooltip="Check against C#">Test against C#</button>
         </div>
     </div>
 <!--

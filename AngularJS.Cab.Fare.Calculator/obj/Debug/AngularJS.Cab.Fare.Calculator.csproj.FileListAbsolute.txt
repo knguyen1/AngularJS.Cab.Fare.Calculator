@@ -13,3 +13,15 @@ c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calcul
 c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\obj\Debug\AngularJS.Cab.Fare.Calculator.csprojResolveAssemblyReference.cache
 c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\obj\Debug\AngularJS.Cab.Fare.Calculator.dll
 c:\users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\obj\Debug\AngularJS.Cab.Fare.Calculator.pdb
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.dll
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.Net4.dll
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.pdb
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.xml
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.Net4.pdb
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.Web.dll
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\WebActivatorEx.dll
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.Web.pdb
+C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\StructureMap.Web.xml

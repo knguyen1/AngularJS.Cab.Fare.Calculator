@@ -7,22 +7,26 @@ var baseUrl = $("base").first().attr("href"); //detect the location of AngularAp
 var app = angular.module('app', ['ui.router', 'ui.bootstrap']);
 
 app.config(['$urlRouterProvider', '$stateProvider', function ($urlRouterProvider, $stateProvider) {
+    
+    //$provide.decorator('$httpBackend', angular.mock.e2e.$httpBackendDecorator);
+
     $urlRouterProvider.otherwise('/');
+
     $stateProvider
 
-      //GET: /#/*
+    //state: /#/*
       .state('home', {
           url: '/',
           templateUrl: baseUrl + 'home.htm'
       })
 
-      //GET: /#/about
-      .state('about', { 
+    //state: /#/about
+      .state('about', {
           url: '/about',
           templateUrl: baseUrl + 'about.htm'
       })
 
-      //GET: /#/contact
+    //state: /#/contact
       .state('contact', {
           url: '/contact',
           templateUrl: baseUrl + 'contact.htm'

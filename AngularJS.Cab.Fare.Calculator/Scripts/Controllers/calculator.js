@@ -10,14 +10,15 @@ var cabfareCalculator = app.controller('cabfareCalculator',
             $scope.minDate = $scope.minDate ? null : new Date();
         };
 
+        $scope.toggleMin();
+
         //initialize variables
         $scope.init = function () {
             $scope.numMinutesAbove6mph = 10;
             $scope.numMilesBelow6mph = 5;
             $scope.dateOfTrip = new Date();
             $scope.timeOfTrip = new Date();
-            $scope.toggleMin();
-        } (); //note: the () at the end makes angular fire the function right away
+        }
 
         //clear variables... might use this function later
         $scope.clear = function () {
@@ -28,16 +29,17 @@ var cabfareCalculator = app.controller('cabfareCalculator',
         };
 
         //using angular promises
-        $scope.checkBackEnd = function () {
+        $scope.checkBackEnd = function (numMinutesAbove6mph, numMilesBelow6mph, dateOfTrip, timeOfTrip) {
 
             //prepare the payload
-            var payload = "/?numMinutesAbove6mph=" + $scope.numMinutesAbove6mph + "&numMilesBelow6mph=" + $scope.numMilesBelow6mph
-                + "&dateOfTrip=" + dateFormat($scope.dateOfTrip,"mm/dd/yyyy HH:MM:ss") + "&timeOfTrip=" + dateFormat($scope.timeOfTrip,"mm/dd/yyyy HH:MM:ss");
+            var payload = "/?numMinutesAbove6mph=" + numMinutesAbove6mph + "&numMilesBelow6mph=" + numMilesBelow6mph
+                + "&dateOfTrip=" + dateFormat(dateOfTrip, "mm/dd/yyyy HH:MM:ss") + "&timeOfTrip=" + dateFormat(timeOfTrip, "mm/dd/yyyy HH:MM:ss");
 
             //send it to the api service
             apiService.calculate(payload)
                 .then(function (res) {
                     //success
+                    alert(res.totalFare);
                 }, function (err) {
                     //failure
                 });
@@ -71,6 +73,11 @@ var cabfareCalculator = app.controller('cabfareCalculator',
             if ((currentDay >= 1 && currentDay < 6) && (currentHour >= 16 && currentHour < 21))
                 weekDayCharge = 1;
 
+            $scope.fareHolder = entryFee + totalUnitsFee + nightCharge + weekDayCharge + nysSurcharge;
+
             return entryFee + totalUnitsFee + nightCharge + weekDayCharge + nysSurcharge;
         };
+
+        //run init() to prepare all variables
+        $scope.init();
     } ]);

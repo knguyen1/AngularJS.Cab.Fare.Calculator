@@ -8,15 +8,15 @@ namespace AngularJS.Cab.Fare.Calculator.Models
 {
     public class CabFareModel
     {
-        public decimal numMinutesAbove6mph { get; set; }
-        public decimal numMilesBelow6mph { get; set; }
+        public double numMinutesAbove6mph { get; set; }
+        public double numMilesBelow6mph { get; set; }
         public DateTime dateOfTrip { get; set; }
         public DateTime timeOfTrip { get; set; }
-        public decimal minuteUnit { get; set; }
-        public decimal mileUnit { get; set; }
-        public decimal nightCharge { get; set; }
-        public decimal weekDayCharge { get; set; }
-        public decimal totalUnitsFee { get; set; }
-        public decimal totalFare { get; set; }
+        public double minuteUnit { get; set; }
+        public double mileUnit { get; set; }
+        public double nightCharge { get; set; }
+        public double weekDayCharge { get; set; }
+        public double totalUnitsFee { get; set; }
+        public double totalFare { get; set; }
     }
 }

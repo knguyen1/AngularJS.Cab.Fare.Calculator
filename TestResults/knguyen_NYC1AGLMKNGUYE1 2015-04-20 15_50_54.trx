@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8bfe02c8-735d-4370-be27-8cac89e25330" name="knguyen@NYC1AGLMKNGUYE1 2015-04-20 15:50:54" runUser="MBSINTL\knguyen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="23b2b9a2-03d4-4a15-aa74-84d949527ec4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="knguyen_NYC1AGLMKNGUYE1 2015-04-20 15_50_54">
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\FluentAssertions.3.3.0\lib\net40\FluentAssertions.Core.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.Mvc.3.0.20105.1\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\AngularJS.Cab.Fare.Calculator\bin\AngularJS.Cab.Fare.Calculator.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.Razor.1.0.20105.408\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\FluentAssertions.3.3.0\lib\net40\FluentAssertions.dll" />
+      <DeploymentItem filename="C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.Deployment.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-20T15:50:54.2361056-04:00" queuing="2015-04-20T15:50:54.2841104-04:00" start="2015-04-20T15:50:54.2911111-04:00" finish="2015-04-20T15:50:54.5421362-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index_Action_Returns_View" storage="c:\users\knguyen\documents\visual studio 2010\projects\angularjs.cab.fare.calculator\cab.fare.calculator.test\bin\debug\cab.fare.calculator.test.dll" id="f6e50fbf-2f4b-80bd-a95c-0975bd873510">
+      <Execution id="d24606c4-2d4f-409c-b3cc-5bf02e4e2903" />
+      <TestMethod codeBase="C:/Users/knguyen/documents/visual studio 2010/Projects/AngularJS.Cab.Fare.Calculator/Cab.Fare.Calculator.Test/bin/Debug/Cab.Fare.Calculator.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cab.Fare.Calculator.Test.FareCalcTest, Cab.Fare.Calculator.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Action_Returns_View" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f6e50fbf-2f4b-80bd-a95c-0975bd873510" executionId="d24606c4-2d4f-409c-b3cc-5bf02e4e2903" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d24606c4-2d4f-409c-b3cc-5bf02e4e2903" testId="f6e50fbf-2f4b-80bd-a95c-0975bd873510" testName="Index_Action_Returns_View" computerName="NYC1AGLMKNGUYE1" duration="00:00:00.0349623" startTime="2015-04-20T15:50:54.3311151-04:00" endTime="2015-04-20T15:50:54.5281348-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d24606c4-2d4f-409c-b3cc-5bf02e4e2903">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Index&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at Cab.Fare.Calculator.Test.FareCalcTest.Index_Action_Returns_View() in C:\Users\knguyen\documents\visual studio 2010\Projects\AngularJS.Cab.Fare.Calculator\Cab.Fare.Calculator.Test\FareCalcTest.cs:line 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
