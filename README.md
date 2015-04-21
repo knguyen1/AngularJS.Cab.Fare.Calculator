@@ -22,7 +22,7 @@ The views are found in:
 * /root/AngularJS.Cab.Fare.Calculator/AngularApp/about.htm
 
 ## Promises
-Usage of promises are demonstrated here, in `calculator.js`.
+Usage of promises are demonstrated here, in `calculator.js`.  `apiService` is found in `services.js`, and is dependency-injected to our controller.
 
     //send it to the api service
     apiService.calculate(payload)
