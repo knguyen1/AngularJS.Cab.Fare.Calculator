@@ -30,7 +30,7 @@ Usage of promises are demonstrated here, in `calculator.js`.
             //success
             alert(res.totalFare);
         }, function (err) {
-        //failure
+            //failure
     });
 
 ## Testing
@@ -41,7 +41,7 @@ You can find the test files here:
   
 MS Test file here:
 
-* /root/Cab.Fare.Calculator.Test/FareCalcTest
+* /root/Cab.Fare.Calculator.Test/FareCalcTest.cs
   
 Q Unit test file here:
 
